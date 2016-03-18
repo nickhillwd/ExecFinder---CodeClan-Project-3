@@ -1,0 +1,24 @@
+{
+  "name": "exec_iphone_7000",
+  "version": "1.0.0",
+  "description": "mobile interface for exec finder",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.4.1",
+    "express-ejs-layouts": "^2.0.0",
+    "request": "^2.69.0",
+    "body-parser": "~1.0.0",
+    "mongoose" : "~3.8.1",
+    "express": "~4.x.x"
+  },
+  "engines": {
+    "node": "5.4.1",
+    "npm": "3.5.3"
+  }
+}
